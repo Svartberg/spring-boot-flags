@@ -27,7 +27,6 @@ public class CountryFlagServiceImpl implements CountryFlagService {
             getFlagUrlOfType(e.getFlags(), countryDTO.getFormat()),
             countryDTO.getPath(),
             countryDTO.getFormat()));
-
   }
 
   private void validateSavePath(String path) {

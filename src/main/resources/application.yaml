@@ -1,0 +1,11 @@
+spring:
+  jackson:
+    mapper:
+      ACCEPT_CASE_INSENSITIVE_ENUMS: true
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
